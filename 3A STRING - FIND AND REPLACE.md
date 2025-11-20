@@ -1,12 +1,8 @@
 # Exp.No:3a
 ## STRING - FIND AND REPLACE
 
----
-
 ### AIM  
 To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
-
----
 
 ### ALGORITHM
 
@@ -18,13 +14,19 @@ To write a Python function to accept a string, identify a word to be replaced, a
 6. Display the original string (`str1`) and the modified string (`str3`).  
 7. Terminate the program.
 
----
-
 ### PROGRAM
 
 ```
+Reg.No: 212222060155
+Name: Mukesh HS
+
+def splitstring(email):
+    result = email.split("@")
+    print(result)
 ```
 
 ### OUTPUT
+<img width="847" height="219" alt="image" src="https://github.com/user-attachments/assets/b6fe6dab-9d3d-4e13-ab77-4da336acfd9c" />
 
 ### RESULT
+The program splits the input string at "@" and displays the resulting parts as a list.
