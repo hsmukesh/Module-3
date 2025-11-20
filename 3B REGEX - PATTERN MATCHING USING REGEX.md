@@ -19,8 +19,8 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
-#Reg.No: 212222060155
-#Name: Mukesh HS
+Reg.No: 212222060155
+Name: Mukesh HS
 
 import re
 a=input()
