@@ -18,20 +18,19 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
-Reg.No: 212222060155
-Name: Mukesh HS
+#Reg.No: 212222060155
+#Name: Mukesh HS
 
 def createlist(n):
     l=[]
-    for i in range(12, n):
+    for i in range(2,n):
         if i%2==0:
             l.append(i)
-    print("List =",l)
-    print("Sum of the list", sum(l))
+    print(l)
 ```
 
 ### OUTPUT
-<img width="683" height="217" alt="image" src="https://github.com/user-attachments/assets/f32cd159-2813-4592-bf33-0ae11903d1bd" />
+<img width="691" height="201" alt="image" src="https://github.com/user-attachments/assets/f840456a-c2b2-43b9-a24d-b0a5c371c46e" />
 
 ### RESULT
-Thus a Python function that accepts a number N and creates a list containing all even numbers up to N was executed and implemented successfully.
+This program number N and creates a list containing all even numbers up to N is successfully executed.
