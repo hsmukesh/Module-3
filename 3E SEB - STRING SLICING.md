@@ -17,20 +17,16 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
-Reg.No: 212222060155
-Name: Mukesh HS
+#Reg.No: 212222060155
+#Name: Mukesh HS
 
-import re
-a=str(input())
-pattern=r'[A-Z]+@'
-if re.search(pattern,a):
-    print("Found a match!")
-else:
-    print("Not matched!")
+def splitstring(a):
+    x = a.split('@')
+    print(x)
 ```
-
 ### OUTPUT
-<img width="924" height="377" alt="image" src="https://github.com/user-attachments/assets/e6ffa97a-0648-4c20-9c87-4d41c2715c33" />
+<img width="928" height="242" alt="image" src="https://github.com/user-attachments/assets/3a3e580e-2c26-413e-ba3b-f3ed716aba32" />
+
 
 ### RESULT
-Thus a Python program using regular expressions was executed and implemented successfully.
+Thus the Python function that accepts a string and forms a new string by reversing the characters from the 4th position to the 10th position with alternate characters, and then prints the new string has been implemented and executed successfully.
