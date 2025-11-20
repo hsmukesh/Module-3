@@ -17,16 +17,17 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```
-Reg.No: 212222060155
-Name: Mukesh HS
+#Reg.No: 212222060155
+#Name: Mukesh HS
 
-def splitstring(email):
-    result = email.split("@")
-    print(result)
+def replacestr(n,p):
+    print("The old string is {}".format(n))
+    print("the new string is {}".format(n.replace(p,x)))
+x=str(input())
 ```
 
 ### OUTPUT
-<img width="847" height="219" alt="image" src="https://github.com/user-attachments/assets/b6fe6dab-9d3d-4e13-ab77-4da336acfd9c" />
+<img width="1229" height="291" alt="image" src="https://github.com/user-attachments/assets/6a9a9a2a-9eee-4924-b58a-7a47ca8d09e1" />
 
 ### RESULT
-The program splits the input string at "@" and displays the resulting parts as a list.
+This program for string, identify a word to be replaced, and replace it with a new word provided by the user is successfully executed.
