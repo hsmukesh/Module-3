@@ -4,6 +4,7 @@
 ### AIM  
 To write a Python program that matches a string containing an `'a'` followed by **two to three `'b'` characters** using regular expressions.
 
+
 ### ALGORITHM
 
 1. Begin the program.  
@@ -14,22 +15,23 @@ To write a Python program that matches a string containing an `'a'` followed by 
 6. If no match is found, print `"Not matched!"`.  
 7. Terminate the program.
 
+
 ### PROGRAM
 
 ```
-Reg.no: 212222060155
-Name: Mukesh HS
+#Reg.No: 212222060155
+#Name: Mukesh HS
 
 import re
 a=input()
-pattern=r'[A-Z]+_'
-if re.search(pattern,a):
+x=re.findall(r".{2,3}b",a)
+if x:
     print("Found a match!")
 else:
     print("Not matched!")
 ```
 ### OUTPUT
-<img width="939" height="303" alt="image" src="https://github.com/user-attachments/assets/2ebb8e78-4248-4982-bd22-7e04ae7da9da" />
+<img width="690" height="192" alt="image" src="https://github.com/user-attachments/assets/111de1a5-a0a6-40e5-aedf-ba717c5ece84" />
 
 ### RESULT
-Thus a Python program using regular expressions was executed and implemented successfully.
+This program for string containing an 'a' followed by two to three 'b' characters using regular expression is successfully executed.
